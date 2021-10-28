@@ -9,7 +9,7 @@ public class NADO {
         Scanner scanner = new Scanner(System.in);
         String phone = scanner.nextLine();
         if (isPhoneNumberCorrect(phone) == true) {
-            String phoneNew = phone.replace("38", "9");
+            String phoneNew = phone.replaceFirst("38", "9");
             System.out.println("Номер в новому форматі " + phoneNew);
         } else System.out.println("Номер введено в неправильному форматі");;
     }
