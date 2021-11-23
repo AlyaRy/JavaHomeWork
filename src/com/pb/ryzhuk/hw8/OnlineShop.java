@@ -12,7 +12,7 @@ public class OnlineShop {
         login = scanner.nextLine();
         System.out.print("Введіть password: ");
         password = scanner.nextLine();
-        System.out.print("Повторіть password: ");
+        System.out.println("Повторіть password: ");
         confirmPassword = scanner.nextLine();
         int success = 0;
         try {
